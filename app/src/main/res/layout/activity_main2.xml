@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="45dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/mblack"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Homepage"
+        android:textSize="25dp"/>
+
+    <!--layout welcome username-->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="Welcome"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/masukuname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="username"
+            android:textColor="#6C65FA"
+            android:textAlignment="textStart"
+            android:layout_marginStart="7dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <!--layout email-->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="Your"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/masukemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="email"
+            android:textColor="#6C65FA"
+            android:textSize="15dp"
+            android:layout_marginStart="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="has been activated"
+            android:textSize="15dp"
+            android:layout_marginStart="7dp"/>
+
+    </LinearLayout>
+
+    <!--layout email-->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:textSize="15dp"
+            android:text="Your" />
+
+        <TextView
+            android:id="@+id/masukphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:fontFamily="@font/mmedium"
+            android:textColor="#6C65FA"
+            android:textSize="15dp"
+            android:layout_marginStart="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="has been registered"
+            android:layout_marginStart="7dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
